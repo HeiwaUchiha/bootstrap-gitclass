@@ -1,0 +1,121 @@
+*{
+    overflow-x: hidden;
+}
+.navbar-brand{
+    padding-left: 2rem;
+    display: inline-flex;
+}
+.navbar-brand h1{
+    font-size: 35px;
+}
+.navbar-nav{
+    text-align: center;
+    padding-left: 6rem;
+}
+.navbar-nav a{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+}
+.navbar-list ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+.navbar-list ul li{
+    padding: 5px;
+    overflow-y: hidden;
+}
+@media screen and (max-width:991px) {
+    .navbar-nav{
+        padding-left: 0;
+    }
+    .navbar-brand{
+        padding-left: 0.5rem;
+    }
+    .navbar-list ul{
+        margin-left: 0;
+    }
+}
+.mobile{
+    height: 120vh;
+    background-image: url(image/pexels-freestocksorg-892757-768x512.jpg);
+    background-size: cover;
+}
+.row{
+    padding-top: 12rem;
+    padding-left: 3rem;
+}
+.row h2{
+    font-size: 20px;
+    font-weight: 700;
+    overflow-y: hidden;
+}
+.row h1{
+    font-size: 80px;
+    font-weight: 600;
+    overflow-y: hidden;
+}
+.button{
+    background-color: rgb(255, 229, 190);
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+.features{
+    margin-top: -8rem;
+    padding-top: -8rem;
+    background-color: #F8F9FA;
+}
+.fea{
+    width: 140%;
+    border-radius: 20px;
+}
+
+.description{
+    height: 100vh;
+    width: 40rem;
+    margin-top: -4.55rem;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 1;
+}
+.description h2{
+    overflow-y: hidden;
+}
+.description h1{
+    font-size: 50px;
+}
+.description p{
+    font-size: 15px;
+}
+.fea-jobs ul li{
+    font-size: 20px;
+    font-weight: 600;
+}
+@media screen and (max-width:991px) {
+    .features .row{
+        padding-left: 20%;
+    }
+    .fea{
+        width: 80%;
+    }
+    .description{
+        margin-top: 20%;
+        align-content: center;
+        height: 80vh;
+        width: 20rem;
+        padding-left: 0;
+        text-align: center
+    }
+}
+.foot{
+    margin-top: 3rem;
+    background-color: #F8F9FA;
+}
+.foot p{
+    text-align: center;
+}
